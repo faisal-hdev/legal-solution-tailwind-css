@@ -42,11 +42,71 @@
         },
       };
     </script>
+    <style>
+      .poppins-font {
+        font-family: "Poppins", sans-serif;
+      }
+      .eb-garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
   </head>
-  <body class="container mx-auto">
-    <header class="">
+  <body class="container mx-auto poppins-font">
+    <header class="lg:px-0 px-6">
       <!-- Navbar start -->
-      <nav class=""></nav>
+      <nav class="flex justify-between items-center my-12">
+        <div>
+          <img src="./images/logo2.png" alt="" />
+        </div>
+        <ul class="hidden lg:flex gap-8 items-center justify-center">
+          <li>
+            <a
+              class="hover:text-[#B68C5A;] duration-150 text-lg font-li text-gray-600"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-[#B68C5A;] duration-150 text-lg font-li text-gray-600"
+              href="#"
+              >Services<i class="fa-solid fa-angle-right ml-2 text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="hover:text-[#B68C5A;] duration-150 text-lg font-li text-gray-600"
+              href="#"
+              >Cases<i class="fa-solid fa-angle-right ml-2 text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="hover:text-[#B68C5A;] duration-150 text-lg font-li text-gray-600"
+              href="#"
+              >Blog<i class="fa-solid fa-angle-right ml-2 text-xl"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="hover:text-[#B68C5A;] duration-150 text-lg font-li text-gray-600"
+              href="#"
+              >Contact Us<i class="fa-solid fa-angle-right ml-2 text-xl"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="hidden lg:flex">
+          <button
+            class="bg-[#B68C5A;] hover:bg-[#ffa94d] duration-300 border-none outline-none text-lg text-white py-4 px-6 rounded-lg"
+          >
+            Free Consultation
+          </button>
+        </div>
+        <!-- Bars Menu -->
+        <div class="lg:hidden flex">
+          <i class="fa-solid fa-bars text-3xl"></i>
+        </div>
+      </nav>
       <!-- Banner section start -->
       <section class=""></section>
     </header>
